@@ -13,4 +13,9 @@ while True:
         catalogo["nome"] = input("Digite o nome do Produto:")
         catalogo["preco"] = float(input("Digite o preço do Produto:"))
         print("Produto Adicionado com Sucesso")
+    elif opc == 2:
+        print("=======================================")
+        print("Você selecionou para mostrar produtos")
+        print("=======================================")
+        print("Código:",catalogo["codigo"])
 
